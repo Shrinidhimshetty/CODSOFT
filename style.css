@@ -1,0 +1,97 @@
+header {
+  background: #005580;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+#hero {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: -240px;
+}
+
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f5faff;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section h2 {
+  font-size: 28px;
+  color: #005580;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+section p {
+  font-size: 20px;
+  line-height: 1.9;
+  text-align: justify;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section li {
+  background-color: lightcyan;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-left: 4px solid lightblue;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+.contact a {
+  color:lightblue;
+  text-decoration: underline;
+}
+
+.contact a:hover {
+  color: lightblue;
+}
+
+
+
+
+
